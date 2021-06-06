@@ -1,0 +1,17 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+
+.letter{
+  padding: 50px;
+  margin: 20px;
+  background-color:#c9e6ff ;
+}
+
+img{
+  height: 50px;
+  width: 50px;
+}

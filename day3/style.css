@@ -1,0 +1,37 @@
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+
+body{
+  padding: 50px;
+  margin: 100px;
+}
+
+legend {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+
+}
+
+.firstcolumn{
+  flex: 50%;
+  border-right: 1px solid grey;
+  padding: 20px;
+
+}
+.secondcolumn{
+  flex: 50%;
+  border-left: 1px solid grey;
+  padding: 20px;
+
+}
+
