@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://floating-inlet-07373.herokuapp.com/css/bt.css" />
+    <link href="https://kit-pro.fontawesome.com/releases/latest/css/pro.min.css" media="all" rel="stylesheet"
+        id="font-awesome-5-kit-css" />
+</head>
+<style>
+    .centerall {
+        height: 100vh;
+        padding: 0;
+        display: grid;
+        padding: 12vh;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{    
+        background-color:  var(--navbar-item-hover);
+    }
+</style>
+<body class="centerall ">
+    <div class="buttons is-centered" id="Qlist">
+    </div>
+
+    <div class="box box-shadow-lift" style="  width: 500px; margin: auto;">
+        <h3 class="title">
+            <p id="question"><span class="wave">👋</span><i aria-hidden="true" class="fab fa-correct"></i> Hello! <br> Welcome to the Online Test !</p>
+        </h3>
+        <p>You can hop onto different questions from the question tab before submiting the answers !</p>
+        <hr />
+        <div id="options" class="buttons is-centered" style="display: block;">
+            <button class="button is-rounded box-shadow-lift button-special is-info is-centerd" onclick="this.style.display = 'none' ; startTest();"> Start the test !</button>
+        </div>
+        <hr />
+        <p>Select a preferd option you think is write for the questions.</p>
+    </div>
+
+    <div class="box box-shadow-lift">
+        <label for="checkbox" class="theme-switch"><input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+        </label> 
+    <span id="sub-btn"></span>
+    </div>
+    <div class="modal" id="congo">
+        <div class="modal-background"></div>
+        <div class="modal-content centerall">
+            <div class="box box-shadow-lift">
+                <h1 class="title">🎉 Congratulations !</h1>
+                <h2 class="subtitle">You Have Completed the test .</h2>
+                <p id="finalresult"></p>
+                <p class="subtitle" id="score"></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+<script src="./darkMode.js"></script>
+</html>

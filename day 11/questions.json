@@ -1,0 +1,92 @@
+[
+    {
+      "question":"what is your name ?",
+      "answer" : "Bheem",
+      "options":[
+            "Rajnikant",
+            "Bheem",
+            "Vilgax",
+            "Ben 10"
+        ]
+    },
+    {
+        "question":"what song genre u like ?",
+        "answer" : "Dubstep",
+        "options":[
+              "Hip Hop",
+              "Jazz",
+              "Rock",
+              "Dubstep"
+          ]
+    },
+    {
+        "question":"An α particle and a proton are accelerated from rest by a potential difference of 200 V. After this, their de Broglie wavelengths are λα and λp respectively. The ratio λp/λα is",
+        "answer" : "2.8",
+        "options":[
+              "8",
+              "2.8",
+              "3.8",
+              "7.8"
+          ]
+    },
+    {
+        "question":"what song genre u like ?",
+        "answer" : "Dubstep",
+        "options":[
+              "Hip Hop",
+              "Jazz",
+              "Rock",
+              "Dubstep"
+          ]
+    },
+    {
+        "question":"An α particle and a proton are accelerated from rest by a potential difference of 200 V. After this, their de Broglie wavelengths are λα and λp respectively. The ratio λp/λα is",
+        "answer" : "2.8",
+        "options":[
+              "8",
+              "2.8",
+              "3.8",
+              "7.8"
+          ]
+    },
+    {
+        "question":"what song genre u like ?",
+        "answer" : "Dubstep",
+        "options":[
+              "Hip Hop",
+              "Jazz",
+              "Rock",
+              "Dubstep"
+          ]
+    },
+    {
+        "question":"An α particle and a proton are accelerated from rest by a potential difference of 200 V. After this, their de Broglie wavelengths are λα and λp respectively. The ratio λp/λα is",
+        "answer" : "2.8",
+        "options":[
+              "8",
+              "2.8",
+              "3.8",
+              "7.8"
+          ]
+    },
+    {
+        "question":"what song genre u like ?",
+        "answer" : "Dubstep",
+        "options":[
+              "Hip Hop",
+              "Jazz",
+              "Rock",
+              "Dubstep"
+          ]
+    },
+    {
+        "question":"An α particle and a proton are accelerated from rest by a potential difference of 200 V. After this, their de Broglie wavelengths are λα and λp respectively. The ratio λp/λα is",
+        "answer" : "2.8",
+        "options":[
+              "8",
+              "2.8",
+              "3.8",
+              "7.8"
+          ]
+    }
+]
