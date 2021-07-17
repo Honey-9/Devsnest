@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import List from './Components/list';
+import { data } from './Components/data';
+import { useState } from 'react';
 
 function App() {
+  console.log(data)
+  const [items, setItems] = useState(data)
+
+  const deleteItem = (id) => {
+    setItems(items.filter((item, idx) => id !== idx))
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <h1 className='list'>Calorie List</h1>
+      <div className='calorie-list'>
+         {items.length
+            ? items.map((item, idx) => (
+              <List
+                key = { idx }
+                id = { idx }
+                item = { item }
+                deleteItem = { deleteItem }
+              />
+            ))
+            : (<h2 className='empty'>List is empty</h2>)
+          }
+      </div>
     </div>
   );
 }
